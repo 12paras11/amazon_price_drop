@@ -1,0 +1,30 @@
+{
+  "name": "amazon-price-drop-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.8.3",
+    "angular-ui-router": "^1.0.29",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^6.12.0",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.7.4",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.3",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rajeev Ranjan",
+  "license": "ISC"
+}
